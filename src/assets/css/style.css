@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #007bff;        /* Define primary color */
+    --secondary-color: #6c757d;      /* Define secondary color */
+    --accent-color: #ffc107;         /* Define accent color */
+    --background-color: #f8f9fa;     /* Define background color */
+    --text-color: #343a40;           /* Define text color */
+    /* Add more custom colors as needed */
+  }
+  html, body{
+    height:100%;
+    width:100%;
+}
+
+  .btn-custom {
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #48c58b;
+      --bs-btn-border-color: #c2d2ca;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: #157347;
+      --bs-btn-hover-border-color: #146c43;
+      --bs-btn-focus-shadow-rgb: 60,153,110;
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: #146c43;
+      --bs-btn-active-border-color: #13653f;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      --bs-btn-disabled-color: #fff;
+      --bs-btn-disabled-bg: #198754;
+      --bs-btn-disabled-border-color: #198754;
+  }
+
+.nr {
+    border-radius: 0 !important;
+}
